@@ -60,6 +60,27 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to see the a
 
 This starter pack provides a basic setup for connecting to Ethereum blockchain networks. Customize it according to your project's requirements by modifying components and adding new features.
 
+## New UI Components
+
+This starter now includes essential UI components for better user experience:
+
+- **Alert Component** - Display messages with different severity levels (success, error, warning, info)
+- **Skeleton Component** - Loading placeholders for better perceived performance
+- **Spinner Component** - Animated loading indicators with multiple sizes
+- **Loading Overlay** - Full loading states with customizable text
+- **Web3 Status** - Specialized component for wallet connection status
+- **Error Boundary** - React error boundary for graceful error handling
+
+## TypeScript Types
+
+Comprehensive TypeScript types are included in `types/web3.ts` for:
+- Wallet and chain configurations
+- Ad slot and content management
+- Transaction handling
+- Component props and hook returns
+
+See [COMPONENTS.md](./COMPONENTS.md) for detailed documentation and usage examples.
+
 ## Contributing
 
 Feel free to fork the repository and submit pull requests. Contributions are welcome!
